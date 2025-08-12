@@ -1,0 +1,136 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    box-sizing: border-box;
+}
+
+/* Logo */
+.logo {
+    color: rgb(255, 255, 255);
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-image: url('Images/Black\ White\ Grayscale\ Portfolio\ Presentation\ 1.jpg');
+    background-size: cover;
+}
+
+/* Header */
+#header1 {
+    position: relative;
+    width: 100%;
+    background-color: #2d2d2d;
+    
+}
+
+/* Container */
+.container {
+    padding: 5px 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+/* Hover Effect for Navbar */
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ffee00;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* Header Text (Fixing Left-Center Alignment) */
+main {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding-right: 10%;
+    position: relative;
+}
+
+/* Adjust Header Text */
+.header-text {
+    position: absolute;
+    top: 25%;  /* Adjust this value to move it up/down */
+    right: 15%; /* Keeps text aligned to the right */
+}
+
+.header-text h1 {
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+.header-text p {
+    font-size: 60px;
+    margin-top: 30px;
+    font-family: 'inter', sans-serif;
+    font-weight: 800;
+}
+/* Header Span */
+.header-text h1 span {
+    color: #ffffff;
+    transition: color 0.5s ease, transform 0.5s ease;
+}
+
+.header-text h1 span:hover {
+    color: #fff200;
+    transform: scale(1.1);
+}
+
+/* Know More Button */
+.know-more {
+    margin-top: 55px;
+    margin-left: 0px;
+}
+
+.know-more-btn {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #ffee00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.know-more-btn:hover {
+    background-color: #ffee00
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - My Portfolio</title>
+    <link rel="stylesheet" href="contact.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/waseem logo 3.png" alt="Waseem Logo" class="logo">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="projects.html">Projects <span class="arrow">&#9662;</span></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p id="conpar">If you have any questions or would like to get in touch, please feel free to send me a message using the form below. I look forward to hearing from you!</p>
+                <form action="submit_form.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Waseem. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

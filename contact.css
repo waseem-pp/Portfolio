@@ -1,0 +1,56 @@
+form{
+    margin-top: 50px;
+}
+
+.form-group {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center vertically */
+    margin-bottom: 50px; /* Space between form groups */
+}
+
+label {
+    margin-right: 10px; /* Space between label and input */
+    flex: 0 0 100px; /* Fixed width for labels */
+}
+
+input, textarea {
+    flex: 1; /* Allow inputs to take the remaining space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    background-color: #e1ff00;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 150px;
+}
+
+button:hover {
+    background-color: #d1e600; /* Slightly darker on hover */
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+#contact p{
+    margin-top: 15px;
+}
+
+footer {
+    background-color: black; /* Background color for footer */
+    color: rgb(255, 255, 255); /* Text color for footer */
+    text-align: center; /* Center text */
+    padding: 5px 0; /* Padding for footer */
+    position: relative; /* Ensure footer stays at bottom */
+    bottom: 0;
+    height: auto;
+    width: 100%;
+}
