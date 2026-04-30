@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Portfolio</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursor-ring"></div>
+
+    <!-- NAV -->
+    <nav>
+        <a href="#" class="logo">waseem<span>.dev</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">// about</a></li>
+            <li><a href="#skills">// skills</a></li>
+            <li><a href="#projects">// projects</a></li>
+            <li><a href="#contact">// contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <div class="hero">
+        <div class="hero-grid"></div>
+        <div class="hero-glow"></div>
+        <div class="hero-glow2"></div>
+        <p class="hero-tag">// AVAILABLE FOR WORK</p>
+        <h1 class="hero-title">
+            Hi, I'm <strong>Waseem</strong><br />
+            Full-Stack Developer
+        </h1>
+        <p class="hero-subtitle">
+            I build fast, scalable web applications and love turning complex problems into clean, elegant code.
+        </p>
+        <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-scroll">SCROLL</div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <p class="section-label reveal">// 01 — ABOUT</p>
+        <h2 class="section-title reveal">Engineer by day,<br />tinkerer by night.</h2>
+        <div class="about-grid">
+            <div class="about-text reveal">
+                <p>I'm a full-stack developer with 2 years of experience building products that people actually enjoy
+                    using. I focus on performance, clean architecture, and pixel-perfect interfaces.</p>
+                <p>Currently working at a Series B startup, previously at agencies and open source. I'm passionate about
+                    developer tooling, distributed systems, and the occasional side project that gets out of hand.</p>
+                <p>When I'm not coding, you'll find me reading about systems design, experimenting with generative art,
+                    or debugging something I definitely shouldn't have touched.</p>
+            </div>
+            <div class="about-stats reveal">
+                <div class="stat-card">
+                    <div class="stat-number">2+</div>
+                    <div class="stat-label">Years of experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Projects shipped</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">10</div>
+                    <div class="stat-label">Open source repos</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">99%</div>
+                    <div class="stat-label">Coffee dependency</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <p class="section-label reveal">// 02 — SKILLS</p>
+        <h2 class="section-title reveal">Technologies I work with.</h2>
+        <div class="skills-grid">
+            <div class="skill-item reveal">
+                <div class="skill-name">JavaScript / TypeScript</div>
+                <div class="skill-bar-wrap">
+                    <div class="skill-bar" data-width="95"></div>
+                </div>
+            </div>
+            <div class="skill-item reveal">
+                <div class="skill-name">React / Next.js</div>
+                <div class="skill-bar-wrap">
+                    <div class="skill-bar" data-width="90"></div>
+                </div>
+            </div>
+            <div class="skill-item reveal">
+                <div class="skill-name">Node.js / Express</div>
+                <div class="skill-bar-wrap">
+                    <div class="skill-bar" data-width="85"></div>
+                </div>
+            </div>
+            <div class="skill-item reveal">
+                <div class="skill-name">PostgreSQL / MongoDB</div>
+                <div class="skill-bar-wrap">
+                    <div class="skill-bar" data-width="80"></div>
+                </div>
+            </div>
+            <div class="skill-item reveal">
+                <div class="skill-name">Docker / Kubernetes</div>
+                <div class="skill-bar-wrap">
+                    <div class="skill-bar" data-width="70"></div>
+                </div>
+            </div>
+            <div class="skill-item reveal">
+                <div class="skill-name">AWS / GCP</div>
+                <div class="skill-bar-wrap">
+                    <div class="skill-bar" data-width="75"></div>
+                </div>
+            </div>
+            <div class="skill-item reveal">
+                <div class="skill-name">Python / FastAPI</div>
+                <div class="skill-bar-wrap">
+                    <div class="skill-bar" data-width="72"></div>
+                </div>
+            </div>
+            <div class="skill-item reveal">
+                <div class="skill-name">Git / CI/CD</div>
+                <div class="skill-bar-wrap">
+                    <div class="skill-bar" data-width="92"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <p class="section-label reveal">// 03 — PROJECTS</p>
+        <h2 class="section-title reveal">Things I've built.</h2>
+        <div class="projects-grid">
+            <div class="project-card reveal">
+                <div class="project-num">PROJECT_01</div>
+                <div class="project-title">DevTrack CLI</div>
+                <div class="project-desc">A terminal-based project management tool for developers who hate leaving the
+                    command line. Built for speed with a beautiful TUI.</div>
+                <div class="project-tags">
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Ink</span>
+                </div>
+                <a href="#" class="project-link">View on GitHub</a>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-num">PROJECT_02</div>
+                <div class="project-title">Pulsedb</div>
+                <div class="project-desc">Lightweight real-time analytics dashboard for PostgreSQL. Monitor queries,
+                    slow logs, and connection health with zero config.</div>
+                <div class="project-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">WebSockets</span>
+                    <span class="tag">PostgreSQL</span>
+                </div>
+                <a href="#" class="project-link">Live Demo</a>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-num">PROJECT_03</div>
+                <div class="project-title">Shortform API</div>
+                <div class="project-desc">A blazing-fast URL shortener with analytics, custom slugs, QR codes, and a
+                    self-hosted option. 99.9% uptime on a $5 VPS.</div>
+                <div class="project-tags">
+                    <span class="tag">Go</span>
+                    <span class="tag">Redis</span>
+                    <span class="tag">Docker</span>
+                </div>
+                <a href="#" class="project-link">Read the case study</a>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-num">PROJECT_04</div>
+                <div class="project-title">AI Code Review Bot</div>
+                <div class="project-desc">GitHub Action that posts AI-powered code review comments on every pull
+                    request. Catches bugs, anti-patterns, and security issues.</div>
+                <div class="project-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">GitHub Actions</span>
+                    <span class="tag">LLM</span>
+                </div>
+                <a href="#" class="project-link">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <p class="section-label reveal">// 04 — CONTACT</p>
+        <h2 class="section-title reveal">Let's build something together.</h2>
+        <div class="contact-inner reveal">
+            <div class="contact-info">
+                <h3>Open to new opportunities &amp; collaborations.</h3>
+                <p>Whether you have a project in mind, want to talk shop, or just say hi — my inbox is always open.</p>
+                <div class="contact-links">
+                    <a href="mailto:mohdwaseemofficial123@gmail.com"
+                        class="contact-link">mohdwaseemofficial123@gmail.com</a>
+                    <a href="#" class="contact-link">github.com/waseem-pp</a>
+                    <a href="#" class="contact-link">linkedin.com/in/waseempp</a>
+                    <a href="#" class="contact-link">@waseemdev</a>
+                </div>
+            </div>
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label for="name">YOUR_NAME</label>
+                    <input type="text" id="name" placeholder="Name" />
+                </div>
+                <div class="form-group">
+                    <label for="email">YOUR_EMAIL</label>
+                    <input type="email" id="email" placeholder="email" />
+                </div>
+                <div class="form-group">
+                    <label for="msg">MESSAGE</label>
+                    <textarea id="msg" placeholder="Tell me about your project..."></textarea>
+                </div>
+                <button type="submit" class="btn-send">SEND_MESSAGE</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <span>© 2026 Waseem — All rights reserved &amp; caffeine</span>
+        <span>Designed &amp; developed by <a href="#">@waseemdev</a></span>
+    </footer>
+</body>
+
+</html>
